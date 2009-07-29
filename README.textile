@@ -1,0 +1,14 @@
+ValidatesXml
+============
+
+Provides validates_xml method allowing to validate xml correctness of ActiveRecord attributes.
+
+Acknowledgment
+--------------
+
+It's just a repacking as gem of plugin published on http://code.google.com/p/validates-xml/ by johnwulff
+
+License
+-------
+
+MIT License
