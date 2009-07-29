@@ -1,4 +1,4 @@
-h1. ValidatesXml
+h2. ValidatesXml
 
 Provides validates_xml method allowing to validate xml correctness of ActiveRecord attributes.
 

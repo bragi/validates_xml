@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{validates_xml}
-  s.version = "1.0.1"
+  s.version = "1.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Lukasz Piestrzeniewicz"]
@@ -10,10 +10,10 @@ Gem::Specification.new do |s|
   s.description = %q{Provides validates_xml method allowing to validate xml correctness of ActiveRecord attributes.}
   s.email = ["bragi@ragnarson.com"]
   s.extra_rdoc_files = ["README.textile"]
-  s.files = %w(lib/validates_xml.rb rails/init.rb README.rdoc)
+  s.files = %w(lib/validates_xml.rb rails/init.rb README.textile)
   s.has_rdoc = true
   s.homepage = %q{http://github.com/bragi/validates_xml}
-  s.rdoc_options = ["--main", "README.rdoc"]
+  s.rdoc_options = ["--main", "README.textile"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{validates_xml}
   s.rubygems_version = %q{1.3.1}
