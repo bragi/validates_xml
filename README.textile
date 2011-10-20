@@ -2,6 +2,14 @@ h2. ValidatesXml
 
 Provides validates_xml method allowing to validate xml correctness of ActiveRecord attributes.
 
+h2. Running Specs
+
+To run specs issue following commands:
+
+    BUNDLE_GEMFILE=gemfiles/Gemfile-rails2 bundle
+    BUNDLE_GEMFILE=gemfiles/Gemfile-rails3 bundle
+    ruby runspecs
+
 h2. Acknowledgment
 
 It's just a repacking as gem of plugin published on http://code.google.com/p/validates-xml/ by johnwulff
