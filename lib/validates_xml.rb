@@ -1,3 +1,5 @@
+require 'active_record'
+
 module ValidatesXML
   def self.validates_xml(xml, options={})
     begin

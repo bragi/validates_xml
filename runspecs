@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+%w[rails2 rails3].each do |rails|
+  ENV["BUNDLE_GEMFILE"] = "gemfiles/Gemfile-#{rails}"
+  system("bundle exec rake spec")
+end
+
